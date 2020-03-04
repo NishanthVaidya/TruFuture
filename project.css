@@ -138,7 +138,7 @@ div > span:nth-child(1){
   color: gray;
 }
 .button2{
-
+  margin-left: 24%;
   font-size: 25px;
   background-color:#e62c97;
   padding: 10px;
@@ -166,12 +166,12 @@ div > span:nth-child(1){
   padding-top: 10%;
   display: grid;
   grid-template-columns: : 1fr 1fr; 
-  grid-gap: none;
+  grid-gap: 0px;
  
 
 }
 .pogram{
-   width: 250px;
+   width: 220px;
 }
 
 .naatitomato{
@@ -261,3 +261,8 @@ hr{
   width: 40px;
   height: 40px;
  }
+ .biggs{
+ padding-left: 25%;
+   text-align: left;
+    font-family:blinker;
+  }
