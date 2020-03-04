@@ -1,0 +1,263 @@
+body{
+  margin: 0%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+  border-right:none;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  display: block;
+  background-color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:none;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+.rightnav{
+  float: right;
+  padding-right: 10%;
+   font-family:Alata;
+}
+.rightnavs{
+  float: right;
+   font-family:Alata;
+  border:none;
+}
+.left{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-left: 10% ;
+  border:none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  font-family:Alata;
+}
+.belownav{
+    background-image: url("https://media.idownloadblog.com/wp-content/uploads/2018/08/Macbook-on-Desk.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    
+}
+.button1{
+  font-size: 25px;
+  background-color:#e62c97;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+}
+.para1{
+  font-family:blinker;
+  font-size: 50px;
+  text-align: center;
+  margin-top:10%; 
+  padding: 0 15%;
+}
+
+.lorem{
+    font-family:blinker;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.6; 
+  padding: 0 15%;   
+}
+.para2{
+   font-family:blinker;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 15%;
+}
+.searchbox{
+  padding: 13px;
+  padding-right: 100px;
+  border-radius: 5px;
+  margin-right:0; 
+  border-right: none;
+}
+.searchboxbutton{
+  background-color:#cc186c;
+  padding:14.5px;
+  border-radius: 0 5px 5px 0;
+  margin-left:-50px;
+  color: white;
+  border-left: none;
+
+}
+.para3{
+  margin:5% 0 0 0;
+  font-family:blinker;
+  font-size: 20px;
+  padding-top: 3%;
+  text-align: left;
+  width: 100%;
+  background-color: #e3ded3;
+  line-height: 1.6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.bikash{
+  padding-top: 50px;
+  padding-right:30%;
+}
+
+div > span:nth-child(1){
+  color: gray;
+}
+.button2{
+
+  font-size: 25px;
+  background-color:#e62c97;
+  padding: 10px;
+  font-family: alata;
+  color: white;
+  padding-right: 15px;
+  margin-top: 1%;
+  border-radius: 30px;
+
+}
+.big{
+  padding-left: 25%;
+   text-align: left;
+    font-family:blinker;
+    font-size: 50px;
+   
+}
+.potato{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.tomato{
+  padding-left: 26%;
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: : 1fr 1fr; 
+  grid-gap: none;
+ 
+
+}
+.pogram{
+   width: 250px;
+}
+
+.naatitomato{
+  padding-top: 20%;
+  text-align: left;
+  padding-left: 15px;
+  font-family: alata;
+  line-height: 1;
+
+}
+.bigger{
+  font-size: 60px;
+}
+.biggers{
+  font-size: 50px;
+  font-family: blinker;
+}
+.notasbig{
+  font-size: 30px;
+}
+.para4{
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width:100%;
+}
+.biggerest{
+  float:right;
+  width: 300px;
+}
+hr{
+   border:none;
+  height: 20px;
+  width: 100%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 1px solid #faf8f0;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px; 
+  margin-top:3%;
+}
+.para5{
+  padding-top: 8%;
+  padding-left: 10%;
+}
+
+.para6{
+  font-size: 20px;
+  font-family: blinker;
+}
+.searchboxes{
+  padding: 13px;
+  padding-right: 230px;
+  border-radius: 5px;
+  margin-right:0; 
+  border-right: none;
+ }
+
+ .foot{
+  display: grid;
+  grid-template-columns: 30% 20% 20% 30%;
+  padding-bottom: 3%;
+  margin-top: 5%;
+  padding-top: 2%;
+  background-color: #e8e7e3;
+
+ }
+
+ .para7{
+  padding-left: 35%;
+  font-family: alata;
+
+ }
+ .para8{
+  padding-left: 25%;
+    font-family: alata;
+ }
+
+ .lastimage{
+  padding-left: 5px;
+  width: 40px;
+  height: 40px;
+ }
+
+  .lastimages{
+  padding-left: 15px;
+  width: 40px;
+  height: 40px;
+ }
